@@ -102,7 +102,7 @@ your_task/
 ├── public/
 │   ├── description.md      # Task description (visible to the agent)
 │   ├── train.csv           # Training data
-│   ├── test.csv            # Test features
+│   ├── test.csv            # Test data
 │   └── sample_submission.csv # Example submission format
 └── private/
     └── answer.csv          # Ground truth (hidden from the agent)

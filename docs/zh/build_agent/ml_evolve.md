@@ -113,8 +113,8 @@ your_ml_task/
 ├── public/
 │   ├── description.md      # 任务描述（智能体可见）
 │   ├── train.csv           # 训练数据
-│   ├── test.csv            # 测试特征
-│   └── sample_submission.csv
+│   ├── test.csv            # 测试数据
+│   └── sample_submission.csv    # 算法提交结果的格式模版，用于规范最终输出
 └── private/
     └── answer.csv          # 真实标签（智能体不可见）
 ```

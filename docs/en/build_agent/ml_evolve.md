@@ -113,8 +113,8 @@ your_ml_task/
 ├── public/
 │   ├── description.md      # Task description (visible to agent)
 │   ├── train.csv           # Training data
-│   ├── test.csv            # Test features
-│   └── sample_submission.csv
+│   ├── test.csv            # Test data
+│   └── sample_submission.csv    # A format template for algorithm submission results, used to standardize the final output
 └── private/
     └── answer.csv          # Ground truth (invisible to agent)
 ```

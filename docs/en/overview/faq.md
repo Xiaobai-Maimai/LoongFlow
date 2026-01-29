@@ -32,11 +32,13 @@ The core difference lies in the **thinking paradigm**:
 
 | Aspect | OpenEvolve/AlphaEvolve | LoongFlow |
 |------|------------------------|-----------|
-| **Core Abstraction** | Mutation-Selection Evolution | **PES Thinking Paradigm** |
-| **Learning Method** | Task-Specific Improvement | **Cross-Task Experience Accumulation** |
-| **Reasoning Depth** | Limited | **Structured Long-Range Reasoning** |
+| **Core Abstraction** | Mutation-Selection Evolution | **PES Thinking Paradigm：Plan-Execute-Summary thinking paradigm** |
+| **Learning Method** | Task-Specific Improvement | **Cross-Task Experience Accumulation：During the planning phase, a new task triggers cross-task experience retrieval over summarized historical data of multiple distinct tasks from the memory bank.** |
+| **Reasoning Depth** | Limited | **Structured Long-Range Reasoning：Operations such as multi-island parallel exploration and crossover and mutation are executed in strict accordance with the long-range reasoning plan formulated during the planning phase.** |
 
 ### 🧠 How is PES different from ReAct?
+
+Both PES and ReAct are agent thinking and execution paradigms. ReAct focuses on short-range interaction driven by real-time feedback without experience accumulation, and is suitable for simple dynamic tasks; while PES focuses on a structured closed loop driven by long-range memory, focusing on experience accumulation and cross-task reuse, and is suitable for complex optimization scenarios that break through local optimality.
 
 PES provides a structured improvement loop:
 - **Planning**: Deep strategic thinking
@@ -118,6 +120,7 @@ All contributions are welcome:
 Support channels:
 - **GitHub Discussions**: Technical questions and community help
 - **Discord Community**: Real-time discussion and collaboration
+- **WeChat Group**: Real-time exchange and support in Chinese
 - **Issue Tracker**: Bug reports and feature requests
 
 ---

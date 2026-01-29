@@ -124,7 +124,7 @@ def evaluate(solution_code_path):
 
 #### 3. 任务描述文件
 
-用文字详细描述问题目标和约束条件。也可以将此部分内容写着配置文件中的 `evolve` 下的 `task` 字段（可以参考 `agents/general_evolve/examples/packing_circle_in_unit_square/task_config.yaml`）。
+用文字详细描述问题目标和约束条件。也可以将此部分内容写在配置文件中的 `evolve` 下的 `task` 字段（可以参考 `agents/general_evolve/examples/packing_circle_in_unit_square/task_config.yaml`）。
 
 ## 运行流程
 

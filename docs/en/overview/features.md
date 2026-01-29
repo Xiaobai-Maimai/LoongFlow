@@ -20,13 +20,13 @@
 ## Performance
 
 ### 🎯 Expert-Level Achievements
-- **Mathematical Breakthroughs**: Surpassed human best results on 11 mathematical problems and AlphaEvolve on 7 problems.
+- **Mathematical Breakthroughs**: Surpassed human best results on all 11 mathematical problems and AlphaEvolve on 7 problems of them.
 - **Machine Learning**: Won 22 gold medals in 40 Kaggle competitions.
 - **Algorithm Optimization**: Achieved SOTA results in fields such as geometric packing and inequality proving.
 
 ### 🔄 Stable Evolution
 - **Convergence Guarantee**: Structured thinking ensures algorithm stability and convergence.
-- **Escaping Local Optima**: Adaptive exploration strategies.
+- **Escaping Local Optima**: Adaptive exploration strategies driven by PES paradigm and hybrid memory system.
 - **Systematic Improvement**: Continuous performance enhancement within complex search spaces.
 
 ## Agent Types

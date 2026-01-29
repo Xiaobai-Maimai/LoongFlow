@@ -102,7 +102,7 @@ your_task/
 ├── public/
 │   ├── description.md      # 任务描述（智能体可见）
 │   ├── train.csv           # 训练数据
-│   ├── test.csv            # 测试特征
+│   ├── test.csv            # 测试数据
 │   └── sample_submission.csv # 提交格式示例
 └── private/
     └── answer.csv          # 真实标签（对智能体隐藏）

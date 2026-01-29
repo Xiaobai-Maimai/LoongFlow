@@ -18,50 +18,8 @@ LoongFlow 是一个开源专家级Agent开发框架，通过PES思考范式赋�
 
 | **领域** | **成就** | **示例** |
 |---------------|-------------------|-------------------|
-| **数学挑战** | 11个问题上超越最佳结果，7个问题达到SOTA | 圆形装箱问题 |
+| **数学挑战** | 11个问题上超越最佳结果，其中7个问题达到SOTA | 圆形装箱问题 |
 | **机器学习竞赛** | 40个Kaggle竞赛验证，22枚金牌 | 斯坦福新冠疫苗竞赛 |
-
-## 🚀 快速开始
-
-### 安装要求
-
-LoongFlow 需要 **Python 3.12** 或更高版本
-
-```bash
-# 使用uv（推荐）
-cd LoongFlow
-uv venv .venv --python 3.12
-source .venv/bin/activate
-uv pip install -e .
-
-# 或使用conda
-conda create -n loongflow python=3.12
-conda activate loongflow
-pip install -e .
-```
-
-### 运行示例
-
-#### 运行通用进化智能体
-
-```bash
-# 运行首个进化任务
-uv pip install -r ./agents/general_evolve/examples/packing_circle_in_unit_square/requirements.txt
-./run_task.sh packing_circle_in_unit_square --background
-
-# 查看任务日志
-tail -f ./agents/general_evolve/examples/packing_circle_in_unit_square/run.log
-```
-
-#### 运行机器学习智能体
-
-```bash
-./run_ml.sh init
-./run_ml.sh run ml_example --background
-
-# 查看任务日志
-tail -f ./agents/ml_evolve/examples/ml_example/agent.log
-```
 
 ## 🔧 核心特性
 
@@ -70,10 +28,10 @@ tail -f ./agents/ml_evolve/examples/ml_example/agent.log
 LoongFlow的核心是**PES（计划-执行-总结）思考范式**，每个Agent迭代都遵循明确的结构：
 
 - **计划**：理解任务和约束，设计高质量执行蓝图
-- **执行**：进行结构化实验，验证中间结果  
+- **执行**：按照计划进行结构化实验，验证每一步迭代产生的结果
 - **总结**：深入反思成功与失败，提取可复用洞察
 
-通过学习与进化记忆系统，实现**跳跃式推理**，突破局部搜索局限。
+通过学习与进化记忆系统，基于记忆中的经验和模式匹配，打破知识领域的边界，可以迁移实现**跳跃式推理**，突破局部搜索局限。
 
 ## 🌟 评估效果
 

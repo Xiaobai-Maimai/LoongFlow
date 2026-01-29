@@ -18,50 +18,8 @@ LoongFlow is an open-source expert-level agent development framework that empowe
 
 | **Domain** | **Achievement** | **Example** |
 |---------------|-------------------|-------------------|
-| **Math Challenges** | Surpassed best results on 11 problems, reached SOTA on 7 problems | Packing circles in a unit square |
+| **Math Challenges** | Surpassed best results on 11 problems, with 7 of them reaching SOTA | Packing circles in a unit square |
 | **Machine Learning Competitions** | Verified in 40 Kaggle competitions, 22 gold medals | Stanford COVID-19 Vaccine Competition |
-
-## 🚀 Quick Start
-
-### Installation Requirements
-
-LoongFlow requires **Python 3.12** or higher.
-
-```bash
-# Use uv (recommended)
-cd LoongFlow
-uv venv .venv --python 3.12
-source .venv/bin/activate
-uv pip install -e .
-
-# Or use conda
-conda create -n loongflow python=3.12
-conda activate loongflow
-pip install -e .
-```
-
-### Running Examples
-
-#### Run General Evolutionary Agent
-
-```bash
-# Run the first evolution task
-uv pip install -r ./agents/general_evolve/examples/packing_circle_in_unit_square/requirements.txt
-./run_task.sh packing_circle_in_unit_square --background
-
-# View task logs
-tail -f ./agents/general_evolve/examples/packing_circle_in_unit_square/run.log
-```
-
-#### Run Machine Learning Agent
-
-```bash
-./run_ml.sh init
-./run_ml.sh run ml_example --background
-
-# View task logs
-tail -f ./agents/ml_evolve/examples/ml_example/agent.log
-```
 
 ## 🔧 Core Features
 
@@ -70,10 +28,10 @@ tail -f ./agents/ml_evolve/examples/ml_example/agent.log
 The core of LoongFlow is the **PES (Plan-Execute-Summarize) thinking paradigm**, where every Agent iteration follows a clear structure:
 
 - **Plan**: Understand tasks and constraints, design high-quality execution blueprints.
-- **Execute**: Conduct structured experiments, verify intermediate results.
+- **Execute**: Conduct structured experiments in accordance with the plan and verify the results generated in each iteration.
 - **Summarize**: Deeply reflect on successes and failures, extract reusable insights.
 
-Through the learning and evolutionary memory system, it achieves **leapfrog reasoning**, breaking through the limitations of local search.
+Through the learning and evolutionary memory system, relying on the empirical knowledge and pattern matching stored in memory, the boundaries between knowledge domains can be broken, enabling the realization of **leapfrog reasoning** via transfer learning, thereby breaking through the limitations of local search.
 
 ## 🌟 Evaluation Results
 

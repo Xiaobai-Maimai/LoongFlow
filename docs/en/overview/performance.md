@@ -12,7 +12,7 @@ LoongFlow has achieved state-of-the-art results on Terence Tao and AlphaEvolve's
 |------|-------------|-------------|-----------|----------|
 | Circle Packing in a Square | 2.634 | 2.6358627564136983 | **2.6359829624734026** | +0.00012 |
 | Circle Packing in a Rectangle | 2.364 | 2.3658321334167627 | **2.365832229500823** | +0.000000096 |
-| Packing Hexagons in a Hexagon | 3.943 | 3.930092 | **3.928906855463712** | +0.001185 |
+| Packing Hexagons in a Hexagon | 3.943 | 3.930092 | **3.928906855463712** | -0.001185 |
 | Ratio of Maximum to Minimum | 12.89 | 12.88926611203463 | **12.889243547212832** | -0.0000226 |
 | Minimal Overlap Problem | 0.380927 | 0.380924 | **0.3809137564083654** | -0.0000102 |
 
@@ -44,8 +44,8 @@ These competitions validate LoongFlow's excellent performance in full-cycle mach
 ### Stability Performance
 
 - **Success Rate**: Math Optimization 95%, Machine Learning 90%, Algorithm Discovery 85%
-- **Failure Recovery**: 85% of local optima escapes succeed within 5 generations
-- **Experience Reuse**: 80% of successful strategies are reusable across problem domains
+- **Failure Recovery**: 85% of cases successfully escape local optimality within 5 generations
+- **Experience Reuse**: 80% of successful strategies in memory bank are reusable across problem domains
 
 ### Computational Resources
 
