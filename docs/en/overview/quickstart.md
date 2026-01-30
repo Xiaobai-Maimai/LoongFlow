@@ -7,7 +7,7 @@
 - **Recommended to use uv package manager**
 
 ## Video Demonstration
-- **Video URL**: [https://www.zhihu.com/pin/1998110224859567833](https://www.zhihu.com/pin/1998110224859567833)
+- **Video URL**: [https://www.zhihu.com/pin/1998110224859567833](https://www.zhihu.com/pin/1998110224859567833) 
 
 ## 1. Clone Repository
 
